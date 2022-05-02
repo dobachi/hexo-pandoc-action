@@ -4,7 +4,7 @@ FROM pandoc/core:latest-ubuntu
 RUN apt-get update && \
     apt-get install -y git-core npm
 
-RUN npm install -g hexo-cli
+RUN npm install -g
 
 # アクションのリポジトリからコードファイルをコンテナのファイルシステムパス `/`にコピー
 COPY entrypoint.sh /entrypoint.sh
