@@ -1,0 +1,6 @@
+# action.yml
+name: 'Build Hexo with Pandoc'
+description: 'build Hexo blog using Pandoc generator'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
