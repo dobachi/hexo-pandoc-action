@@ -5,4 +5,4 @@
 npm install hexo
 
 # Build
-hexo g
+./node_modules/hexo/bin/hexo g
